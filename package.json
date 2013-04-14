@@ -1,0 +1,24 @@
+{
+  "name": "jr-watch",
+  "description": "A JR job for performing actions when files change.",
+  "keywords": ["jr", "watch"],
+  "author": "Jeff Raymakers",
+  "version": "0.0.1",
+  "main": "./lib/jr-watch.js",
+  "dependencies": {
+    "chokidar": "0.6.x",
+    "underscore": "1.4.x"
+  },
+  "devDependencies": {
+    "async": "0.2.x",
+    "fs-extra": "0.6.x",
+    "mocha": "1.9.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jraymakers/jr-watch.git"
+  },
+  "scripts": {
+    "test": "mocha -t 5000 -R list"
+  }
+}
